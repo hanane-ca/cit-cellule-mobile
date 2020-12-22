@@ -16,7 +16,6 @@ What you'll learn:
 - How to insert text and how to style it.
 - How to insert image ( what is the pubspec.yaml file).
 - How to center a widget ( wrap it inside an other widget) => Understand the widget tree and use Columns and Rows as a concret example.
-- How to set the app icon.
 
 ## Section 2: conan app
 
@@ -27,8 +26,15 @@ What you'll learn:
 - How to insert image in a circle shape.
 - How to change text fonts (Google fonts).
 - How to insert icons.
-- How to set the app icon (Didn't show u last time).
 - How to use github.
+
+#### Ressources : 
+###### Columns and rows: 
+https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e
+###### download fonts: 
+https://fonts.google.com/
 
 #### Homework to do : 
 After we finish the meeting i'd like you to send me screenshots of your personal designed card.
+
+
