@@ -1,16 +1,34 @@
-# conan
+# CIT-cellule-mobile-Resources
 
-A new Flutter project.
+## Section 0: ce qu'il faut installer
 
-## Getting Started
+Pour suivre cette formation, il faut installer Flutter Sdk, Git, VS code (or Android studio) et un émulateur (optionnel ; vous pouvez utiliser votre téléphone portable).
+guide pour installer tout ce qu'il faut:
 
-This project is a starting point for a Flutter application.
+https://flutter.dev/docs/get-started/install/windows?fbclid=IwAR3Zt1Z2et0s5AcI_TVMP-uiszg46lMuByiqxOtA6HyMT8QeNN2RaQkETKQ
 
-A few resources to get you started if this is your first Flutter project:
+## Section 1: basic app
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+prototype: https://xd.adobe.com/view/13100427-be3f-4e99-be28-3aa2312c6758-4643/
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+What you'll learn: 
+- What are Material App, Scaffold and SafeArea.
+- How to insert text and how to style it.
+- How to insert image ( what is the pubspec.yaml file).
+- How to center a widget ( wrap it inside an other widget) => Understand the widget tree and use Columns and Rows as a concret example.
+- How to set the app icon.
+
+## Section 2: conan app
+
+prototype: https://xd.adobe.com/view/13100427-be3f-4e99-be28-3aa2312c6758-4643/screen/b75224ea-e293-44ac-80d1-50dab98dda02/specs/
+
+What you'll learn: 
+- Understand Columns and Rows.
+- How to insert image in a circle shape.
+- How to change text fonts (Google fonts).
+- How to insert icons.
+- How to set the app icon (Didn't show u last time).
+- How to use github.
+
+#### Homework to do : 
+After we finish the meeting i'd like you to send me screenshots of your personal designed card.
