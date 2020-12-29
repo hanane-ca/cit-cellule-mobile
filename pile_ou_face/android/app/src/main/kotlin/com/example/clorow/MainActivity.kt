@@ -1,4 +1,4 @@
-package com.example.conan
+package com.example.clorow
 
 import io.flutter.embedding.android.FlutterActivity
 

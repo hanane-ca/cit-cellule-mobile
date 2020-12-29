@@ -1,4 +1,4 @@
-name: conan
+name: clorow
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -46,7 +46,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - images/detective-conan-1.jpg
+    - images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -59,13 +59,12 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  fonts:
-    - family: Stencil
-      fonts:
-        - asset: fonts/Stencil.ttf
-    - family: DancingScript
-      fonts:
-        - asset: fonts/DancingScript.ttf    
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
