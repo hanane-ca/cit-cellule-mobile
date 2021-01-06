@@ -37,4 +37,29 @@ https://fonts.google.com/
 #### Homework to do : 
 After we finish the meeting i'd like you to send me screenshots of your personal designed card.
 
+## Section 4: animal app
+
+We learned: 
+- GridView, ListView, Single SingleChildScrollView.
+- How to extract a Widget.
+- How to play sound 
+- GestureDetector
+- Packages 
+
+#### Ressources : 
+###### Where you can find packages: 
+https://pub.dev/
+###### the sound player package that we used: 
+https://pub.dev/packages/audioplayers
+###### The documentation about how to play sounds from assets : 
+https://github.com/luanpotter/audioplayers/blob/master/doc/audio_cache.md
+###### The playList i recommend u to watch:
+https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG
+###### where u can find sounds: 
+https://mixkit.co/free-sound-effects/
+
+
+
+
+
 
