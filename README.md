@@ -59,7 +59,28 @@ https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG
 https://mixkit.co/free-sound-effects/
 
 
+## Section 4: Truth or Dare app
 
+We learned : 
+- Dart logic (if , while, private var (var text is public, var \_text is private), function,..)
+- RichText (if u have a text which every word is styled differently)
+- How to build a responsive app. (for more infos check the rssources)
+- how to build apk (command _flutter buil apk_) u can then find ur apk file in the following path in the app folder :  _build\app\outputs\apk\release
+- ternary operator ( condition ? cas1 : cas2; ) => 
+exemple: 
+###### nbr1 >= nb2 ? br1 : br2 + 3 ; 
+this will return nbr1 if nbr1 >= nb2 and (br2 + 3) if not.
+
+#### Ressources : 
+###### Responsitivity in flutter:
+https://medium.com/better-programming/how-to-build-responsive-apps-with-flutter-widgets-review-b22c6dec6904
+###### Rich text (watch the video):
+https://api.flutter.dev/flutter/widgets/RichText-class.html
+###### Everything about dart:
+https://dart.dev/samples
+
+#### Homework to do : 
+Finish the app ( the Dare button doesn't work yet). Good luck 
 
 
 
