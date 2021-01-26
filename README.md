@@ -83,4 +83,34 @@ https://dart.dev/samples
 Finish the app ( the Dare button doesn't work yet). Good luck 
 
 
+## Section 4: BMI calculator app
+
+We learned : 
+- How to set the app icon
+- Navigation between screens and routes
+- Refactoring the code and structering it (main, const , dossier screens , dossier componenets)
+- Themes of MaterialApp
+
+TO DO:
+- Learn about async and how to let the first screen appear only for 5sec 
+- Calculate the BMI and show the results in the result screen and implement the logic (the interpretation of the BMI)
+
+#### Ressources : 
+###### Documentation: Navigate between screens in flutter 
+https://flutter.dev/docs/cookbook/navigation/navigation-basics
+###### App icon Generator:
+https://appicon.co/
+###### Get inspiration (App Design):
+https://itsallwidgets.com/
+https://dribbble.com/signup/new
+###### Cool website to find packages:
+https://fluttergems.dev/
+###### Extension to pick colors from any website:
+https://www.colorzilla.com/chrome/
+###### Extension for VS code for colorfull brackets:
+https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer
+
+
+#### Homework to do : 
+Finish the app ( try to match the design : https://dribbble.com/shots/4585382-Simple-BMI-Calculator ). Good luck 
 
