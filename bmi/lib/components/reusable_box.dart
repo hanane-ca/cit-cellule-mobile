@@ -3,16 +3,25 @@ import '../const.dart';
 
 class ReusableBox extends StatelessWidget {
   final Widget widget;
-  ReusableBox({@required this.widget});
+  final Function onTap;
+  final bool isSelected;
+
+  ReusableBox({@required this.widget,this.onTap, this.isSelected});
 
   @override
   Widget build(BuildContext context) {
     return Expanded(
-      child: Container(
-        margin: EdgeInsets.all(10),
-        color: kdarkBlue,
-        height: 200,
-        child: widget,
+      child: GestureDetector(
+        onTap: onTap,
+        child: Container(
+          decoration : BoxDecoration(
+            color: isSelected == true ? kActiveCardColour : kInactiveCardColour,
+            borderRadius: BorderRadius.circular(15.0),
+          ),
+          margin: EdgeInsets.all(10),
+          height: 200,
+          child: widget,
+        ),
       ),
     );
   }
