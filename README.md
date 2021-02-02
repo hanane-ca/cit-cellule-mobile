@@ -125,3 +125,49 @@ https://api.dart.dev/stable/2.10.4/dart-math/dart-math-library.html
 ###### Documentation (CookBook) for themes in flutter:
 https://flutter.dev/docs/cookbook/design/themes
 
+## Section 5: Basic App to learn Provider
+
+We learned : 
+- Loading screen ( Timer, Duration)
+- initState ( used when we want to call a function once the class is built https://api.flutter.dev/flutter/widgets/State/initState.html)
+- Form and TextFormField ( validator, prefixIcon, suffixIcon, onchanged..)
+- Bottom nav bar
+- Functions : 3 ways 
+##### 1
+function (val) {
+      if (val.isEmpty) {
+        return 'Enter ur name';
+      } else {
+        return null;
+      }
+}
+##### 2
+function(val) {
+    return val.isEmpty ? 'enter ur name' : null;
+    }
+##### 3
+(val) => val.isEmpty ? 'enter mail' : null
+
+- Provider state management
+##### Etape0
+add the provider package in the pabspect.yaml file
+##### Etape1
+Create a file : data_center.dart 
+create a class in it : class DataCenter extends ChangeNotifier 
+##### Etape2
+Wrap the MaterialApp in the main file inside ChangeNotifierProvider, it has a property "create" 
+the syntaxe is: ChangeNotifierProvider(
+      create: (context) => DataCenter(),
+      child: MaterialApp(............),),      
+##### Etape3
+To use the function and variables inside the DataCenter we need to create an instance of the class DataCenter inside whatever class
+we want to use it in. To do that we need to insert this line of code
+    DataCenter data = Provider.of<DataCenter>(context);
+(remember: under the build, before the return)
+And then we can use it data.variableName or data.FunctionName()
+
+#### Ressources : 
+###### Documentationand code source of the Bottom Nav Bar
+https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html
+###### Other costimized bottom nav bars:
+https://fluttergems.dev/bottom-navigation-bar/
