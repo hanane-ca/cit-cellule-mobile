@@ -1,6 +1,8 @@
 import 'package:bmi/components/reusable_box.dart';
 import 'package:flutter/material.dart';
 
+import '../const.dart';
+
 class PlusMoins extends StatelessWidget {
   final int weight;
   final Function add;
@@ -18,15 +20,24 @@ class PlusMoins extends StatelessWidget {
         children: [
           Text(title),
           Row(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              Expanded(
-                child: FlatButton(
-                  onPressed: () {
-                    add();
-                  },
-                  child: Text(
-                    '+',
-                    style: TextStyle(fontSize: 62),
+              GestureDetector(
+                onTap: () {
+                  add();
+                },
+                child: Container(
+                  width: 40.0,
+                  height: 40.0,
+                  decoration: BoxDecoration(
+                    color: kdarkBlue,
+                    borderRadius: BorderRadius.circular(50.0),
+                  ),
+                  child: Center(
+                    child: Text(
+                      '+',
+                      style: TextStyle(fontSize: 30),
+                    ),
                   ),
                 ),
               ),
@@ -34,13 +45,23 @@ class PlusMoins extends StatelessWidget {
                 value,
                 style: TextStyle(fontSize: 32),
               ),
-              FlatButton(
-                onPressed: () {
+              GestureDetector(
+                onTap: () {
                   sub();
                 },
-                child: Text(
-                  '-',
-                  style: TextStyle(fontSize: 62),
+                child: Container(
+                  width: 40.0,
+                  height: 40.0,
+                  decoration: BoxDecoration(
+                    color: kdarkBlue,
+                    borderRadius: BorderRadius.circular(50.0),
+                  ),
+                  child: Center(
+                    child: Text(
+                      '-',
+                      style: TextStyle(fontSize: 40),
+                    ),
+                  ),
                 ),
               ),
             ],

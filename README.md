@@ -114,3 +114,14 @@ https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-color
 #### Homework to do : 
 Finish the app ( try to match the design : https://dribbble.com/shots/4585382-Simple-BMI-Calculator ). Good luck 
 
+
+## Section 5: BMI calculator app (suite)
+
+#### Ressources : 
+###### Provider package and documentation:
+https://pub.dev/packages/provider
+###### math biblio in dart (we used pow methode for power ^2 but check the other available functions):
+https://api.dart.dev/stable/2.10.4/dart-math/dart-math-library.html
+###### Documentation (CookBook) for themes in flutter:
+https://flutter.dev/docs/cookbook/design/themes
+
