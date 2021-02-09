@@ -171,3 +171,28 @@ And then we can use it data.variableName or data.FunctionName()
 https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html
 ###### Other costimized bottom nav bars:
 https://fluttergems.dev/bottom-navigation-bar/
+
+## Section 6: Sign in App
+
+We learned : 
+- What is firebase (Firebase Auth)
+- Asynchronous programming : Async, await, then, Future, try..catch.. (https://dart.dev/codelabs/async-await)
+- SnackBar
+- Loading Spinner
+- MVC model ( further reading : https://www.guru99.com/mvc-tutorial.html )
+
+#### Ressources : 
+
+###### Firebase
+https://firebase.google.com/?hl=fr
+###### Firebase Auth package
+https://pub.dev/packages/firebase_auth
+###### Firebase Auth documentation for Android
+https://firebase.google.com/docs/android/setup?hl=fr
+###### Loading spinner ( modal progress HUD package)
+https://pub.dev/packages/modal_progress_hud
+###### Snackbar doc
+https://api.flutter.dev/flutter/material/ScaffoldState/showSnackBar.html
+
+
+
