@@ -59,7 +59,7 @@ https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG
 https://mixkit.co/free-sound-effects/
 
 
-## Section 4: Truth or Dare app
+## Section 5: Truth or Dare app
 
 We learned : 
 - Dart logic (if , while, private var (var text is public, var \_text is private), function,..)
@@ -83,7 +83,7 @@ https://dart.dev/samples
 Finish the app ( the Dare button doesn't work yet). Good luck 
 
 
-## Section 4: BMI calculator app
+## Section 6: BMI calculator app
 
 We learned : 
 - How to set the app icon
@@ -115,7 +115,7 @@ https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-color
 Finish the app ( try to match the design : https://dribbble.com/shots/4585382-Simple-BMI-Calculator ). Good luck 
 
 
-## Section 5: BMI calculator app (suite)
+## Section 7: BMI calculator app (suite)
 
 #### Ressources : 
 ###### Provider package and documentation:
@@ -125,7 +125,7 @@ https://api.dart.dev/stable/2.10.4/dart-math/dart-math-library.html
 ###### Documentation (CookBook) for themes in flutter:
 https://flutter.dev/docs/cookbook/design/themes
 
-## Section 5: Basic App to learn Provider
+## Section 8: Basic App to learn Provider
 
 We learned : 
 - Loading screen ( Timer, Duration)
@@ -172,7 +172,7 @@ https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html
 ###### Other costimized bottom nav bars:
 https://fluttergems.dev/bottom-navigation-bar/
 
-## Section 6: Sign in App
+## Section 9: Sign in App
 
 We learned : 
 - What is firebase (Firebase Auth)
@@ -194,7 +194,7 @@ https://pub.dev/packages/modal_progress_hud
 ###### Snackbar doc
 https://api.flutter.dev/flutter/material/ScaffoldState/showSnackBar.html
 
-## Section 6: Local Storage
+## Section 10: Local Storage
 
 We learned : 
 - basics of sqflite
@@ -211,7 +211,7 @@ https://pub.dev/documentation/sqflite/latest/
 https://pub.dev/packages/path_provider
 
 
-## Section 7: Local Storage (suite)
+## Section 11: Local Storage (suite)
 
 We learned : 
 - practice the basics of sqflite using a basic app
