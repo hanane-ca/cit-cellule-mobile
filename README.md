@@ -194,5 +194,22 @@ https://pub.dev/packages/modal_progress_hud
 ###### Snackbar doc
 https://api.flutter.dev/flutter/material/ScaffoldState/showSnackBar.html
 
+## Section 6: Local Storage
+
+We learned : 
+- basics of sqflite
+
+ps: u can find a summary in the file named "data_base_helper.dart" in the directory "localData"
+
+#### Ressources : 
+
+###### sqflite package
+https://pub.dev/packages/sqflite
+###### sqflite documentation
+https://pub.dev/documentation/sqflite/latest/
+###### path provider package
+https://pub.dev/packages/path_provider
+
+
 
 
