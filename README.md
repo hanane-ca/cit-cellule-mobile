@@ -211,5 +211,19 @@ https://pub.dev/documentation/sqflite/latest/
 https://pub.dev/packages/path_provider
 
 
+## Section 7: Local Storage (suite)
 
+We learned : 
+- practice the basics of sqflite using a basic app
+- understand the code of a note app created by Achraf
+- understand git and its commands
+
+#### Ressources : 
+
+###### source code of note app by Achraf 
+https://github.com/pipo9/missu
+###### github commands
+https://github.com/joshnh/Git-Commands
+###### download github desktop
+https://desktop.github.com/
 
