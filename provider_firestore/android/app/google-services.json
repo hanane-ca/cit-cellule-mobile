@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "698578640714",
+    "firebase_url": "https://flash-chat-6148e.firebaseio.com",
+    "project_id": "flash-chat-6148e",
+    "storage_bucket": "flash-chat-6148e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698578640714:android:3afccb9cb452f2e37febb3",
+        "android_client_info": {
+          "package_name": "com.elganiesta.todos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698578640714-4cotdb3hmtapvavo72jjqe9v54453dbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4RpzssAZPx0ZL1Tx2XIP7_AzHacJF_cI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698578640714-4cotdb3hmtapvavo72jjqe9v54453dbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
