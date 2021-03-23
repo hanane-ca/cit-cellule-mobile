@@ -227,3 +227,17 @@ https://github.com/joshnh/Git-Commands
 ###### download github desktop
 https://desktop.github.com/
 
+
+## Section 12: Firebase Firestore
+
+We learned : 
+- How to get data from firestore
+- How to update/delete data
+- How to use stream method
+- How to use Provider to manage states
+
+#### Ressources : 
+
+###### Firebase Firestore CRUD functions
+https://www.youtube.com/watch?v=lyZQa7hqoVY
+
