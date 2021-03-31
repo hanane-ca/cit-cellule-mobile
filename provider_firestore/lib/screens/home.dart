@@ -10,7 +10,6 @@ class Todos extends StatefulWidget {
 
 class _TodosState extends State<Todos> {
 
-
   @override
     void initState() {
       TodosNotifier todosNotifier = Provider.of<TodosNotifier>(context, listen: false);
@@ -36,14 +35,22 @@ class _TodosState extends State<Todos> {
         body: ListView.builder(
           itemCount: todosNotifier.todos.length,
           itemBuilder: (context, index) {
-            return ListTile(
-              title: Text(todosNotifier.todos[index].task),
-              subtitle: Text(todosNotifier.todos[index].date),
-              trailing: GestureDetector(
-                onTap: () {
-                  deleteTodo(todosNotifier, todosNotifier.todos[index].docId);
-                },
-                child: Icon(Icons.delete),
+            return GestureDetector(
+              onTap: () {
+                todosNotifier.currentTodo = todosNotifier.todos[index];
+                Navigator.pushNamed(context, '/create', arguments: {
+                  'todo' : todosNotifier.todos[index]
+                });
+              },
+              child: ListTile(
+                title: Text(todosNotifier.todos[index].task),
+                subtitle: Text(todosNotifier.todos[index].date),
+                trailing: GestureDetector(
+                  onTap: () async {
+                    await deleteTodo(todosNotifier, todosNotifier.todos[index]);
+                  },
+                  child: Icon(Icons.delete),
+                ),
               ),
             );
           },

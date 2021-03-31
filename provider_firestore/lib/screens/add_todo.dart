@@ -1,15 +1,35 @@
 import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:intl/intl.dart';
+import 'package:provider/provider.dart';
+import 'package:to_do_list/notifier/todos_notifier.dart';
+import 'package:to_do_list/services/todos_services.dart';
 
-class AddTodo extends StatelessWidget {
+class AddTodo extends StatefulWidget {
+  final Map<String, dynamic> args;
+
+  const AddTodo({Key key, this.args}) : super(key: key);
+
+  @override
+  _AddTodoState createState() => _AddTodoState();
+}
+
+class _AddTodoState extends State<AddTodo> {
+  TextEditingController _todoController = TextEditingController();
+
+  @override
+  void initState() {
+    if (widget.args != null) {
+      _todoController.text = widget.args['todo'].task;
+    }
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
-    TextEditingController _todoController = TextEditingController();
+    TodosNotifier todosNotifier = Provider.of<TodosNotifier>(context);
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Add Todo'),
+          title: Text(widget.args == null ? 'Add Todo' : 'Edit Todo'),
         ),
         body: Padding(
           padding: const EdgeInsets.all(15.0),
@@ -28,17 +48,26 @@ class AddTodo extends StatelessWidget {
                         ),
                       ));
                     } else {
-                      FirebaseFirestore _db = FirebaseFirestore.instance;
-                      await _db.collection('todos').add({
-                        'task': _todoController.text,
-                        'date': DateFormat("yyyy-MM-dd HH:mm:ssS").format(DateTime.now()) 
-                      });
-                      Navigator.pop(context);
+                      if (widget.args == null) {
+                        await addTodo(todosNotifier, _todoController.text);
+                      } else {
+                        await updateTodo(todosNotifier, _todoController.text);
+                      }
+                      ScaffoldMessenger.of(context).showSnackBar(new SnackBar(
+                        content: Text('Very Good !'),
+                        duration: new Duration(seconds: 10),
+                        action: SnackBarAction(
+                          label: "Ok",
+                          onPressed: () {
+                            Navigator.pop(context);
+                          },
+                        ),
+                      ));
                     }
                   },
                   child: Container(
                     child: Text(
-                      'Add',
+                      widget.args == null ? 'Add' : 'Edit',
                     ),
                   ))
             ],
